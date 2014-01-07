@@ -14,14 +14,29 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font: 16px Open Sans, Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
+  color: #333333;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h4, h5, h6 {
   font-size: 100%; }
+  
+h2, h3, h4, h5, h6 {
+	padding: 1em 0;
+	}
+  
+h2 {
+	font-size: 300%;
+}
 
+h3 {
+	font-size: 200%;
+}	
+	
+  
+  
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
