@@ -1,0 +1,3 @@
+# Logfile created on 2014-01-06 19:18:37 -0500 by logger.rb/41954
+I, [2014-01-06T19:18:37.704550 #1636]  INFO -- : 0:  wdm (0.1.0) from C:/Ruby/lib/ruby/gems/2.0.0/specifications/wdm-0.1.0.gemspec
+I, [2014-01-06T19:18:37.705550 #1636]  INFO -- : 0:  bundler (1.5.1) from C:/Ruby/lib/ruby/gems/2.0.0/specifications/bundler-1.5.1.gemspec
