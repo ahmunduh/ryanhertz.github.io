@@ -2,7 +2,7 @@
 layout: post
 title:  "JavaScript Object Methods"
 date:   2014-01-15 11:51:00
-categories: learning
+categories: JavaScript
 ---
 
 I've been a little confused about JavaScript methods. Methods can be added to the constructor, or to the object prototype. Here are some examples:
