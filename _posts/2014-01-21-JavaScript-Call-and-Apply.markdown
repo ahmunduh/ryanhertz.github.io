@@ -5,11 +5,13 @@ date:   2014-01-21 15:14:00
 categories: JavaScript
 ---
 
-The JavaScript `.call()` and `.apply()` methods are very similar. They allow you to call any method on any object like this
+The JavaScript `.call()` and `.apply()` methods are very similar. They allow you to call any method on any object like this.
+
 
     theFunction.apply(theObject, arrayOfArgs)
-    
+
     theFunction.call(theObject, arg1, arg2, ...)
+
 
 The difference is that `.apply()` takes an array of arguments and `.call()` requires a list of separate arguments. That doesn't really make it clear how this could be used though so here is a better example:
 

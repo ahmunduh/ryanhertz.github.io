@@ -3,8 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
+        <title>Ryan Hertz | {{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
@@ -17,25 +19,32 @@
 
         <div class="site">
           <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
+            <div class="container">
+              <h1 class="title"><a href="/"><img src="/images/logo.png" alt="Ryan Hertz" /></a></h1>
+              
+              <div class="menu">
+                <a {% if page.url contains 'index' %} class="active" {% endif %} href="/">Portfolio</a>
+                <a {% if page.url contains 'blog' %} class="active" {% endif %} href="/blog.html">Blog</a>
+                <!--<a {% if page.url contains 'contact' %} class="active" {% endif %} href="contact.html">Contact</a>-->
+              </div>
+
+            </div>
+          </div>
+          
+          <div class="container">
+            {{ content }}
           </div>
 
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Ryan Hertz<br />
-                Web Designer / Front-End Developer<br />
-              </p>
+          <div class="footer container">
+            <p>
+              &copy; 2014 Ryan Hertz. Powered by <a href="http://jekyllrb.com/">Jekyll</a>
+            </p>
+            <div class="links">
+              <a href="https://github.com/ryanhertz"><img src="/images/github.png" alt="GitHub" /></a>
+              <a href="https://twitter.com/rh3rtz"><img src="/images/twitter.png" alt="Twitter" /></a>
             </div>
-            <div class="contact">
-              <p>
-                <a href="http://www.ryanhertz.com">www.ryanhertz.com</a><br />
-                <a href="https://twitter.com/rh3rtz">twitter.com/rh3rtz</a><br />
-              </p>
-            </div>
+            
+          
           </div>
         </div>
 
