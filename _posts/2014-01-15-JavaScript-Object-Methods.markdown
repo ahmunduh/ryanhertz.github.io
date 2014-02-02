@@ -25,7 +25,7 @@ Adding a method using the prototype:
 	
 This example may be a little too simple because the area could be represented as a property, but you get the idea.
 
-One of the benefits of using the prototype is that the `getArea()` method is only declared once. Putting the method in the constructor causes a separate copy of the method to be created with every instance of the Box object. This probably isn't necessary because, we may have several boxes with different x and y values, but the `getArea()` method would be the same for all of them.
+One of the benefits of using the prototype is that the `getArea()` method is only declared once. Putting the method in the constructor causes a separate copy of the method to be created with every instance of the Box object. This probably isn't necessary because the `getArea()` method doesn’t change for each instance.
 
 References:
 

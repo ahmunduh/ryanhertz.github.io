@@ -13,7 +13,7 @@ The JavaScript `.call()` and `.apply()` methods are very similar. They allow you
     theFunction.call(theObject, arg1, arg2, ...)
 
 
-The difference is that `.apply()` takes an array of arguments and `.call()` requires a list of separate arguments. That doesn't really make it clear how this could be used though so here is a better example:
+The difference is that `.apply()` takes an array of arguments and `.call()` requires separate arguments. That doesn't really make it clear how this could be used though so here is an example.
 
 
     function alertAddedValue(number) {
